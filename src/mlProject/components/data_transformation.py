@@ -19,6 +19,8 @@ class DataTransformation:
     def train_test_spliting(self):
         data = pd.read_csv(self.config.data_path)
 
+        data = data.drop('Id',axis=1)
+
         train,test = train_test_split(data)
 
         train.to_csv(os.path.join(self.config.root_dir,'train.csv'),index=False)
