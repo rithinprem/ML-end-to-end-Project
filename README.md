@@ -111,7 +111,7 @@ Now open up your local host 0.0.0.0:8080
 
     AWS_ECR_LOGIN_URI = demo>>  070647577386.dkr.ecr.eu-north-1.amazonaws.com/mlproject
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = mlproject
 
 
 
